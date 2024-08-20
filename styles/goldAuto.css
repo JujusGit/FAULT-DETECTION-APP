@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47em;
+  background-color: rgb(24, 24, 24);
+}
+
+.big{
+  width: 70em;
+  height: 37em;
+  background-image:url(../images/bg34.png) ;
+  background-size: 70em 37em;
+  display: flex;
+  justify-content: end;
+}
+
+select{
+  width: 370px;
+  border:  rgb(194, 3, 3) solid 3px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  padding: 0.5em 0.9em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('../images/chevron-down-regular-24.png') no-repeat right center;
+  background-size: 50px;
+  background-position: calc(100% - 10px) center;
+  background-color: black; 
+}
+
+.container{
+  height: 37em;
+  width: 35em;
+  border: 5px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.small{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 27em;
+  height: 29em;
+  border: 3px solid  rgb(194, 3, 3);
+  align-items: center;
+  padding: 2em 4em;
+  background-color: black;
+}
+
+button{
+  border: none;
+  background-color: rgb(255, 0, 0);
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600px;
+  padding: 0.2em 0.7em;
+}
+
+.left{
+padding: 8em;
+}
+
+.left .big-text{
+  color: rgb(255, 214, 160);
+  font-size: 120px;
+}
+
+
+.big-text{
+  font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+i{
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+

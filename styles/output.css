@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47em;
+  background-color: rgb(24, 24, 24);
+}
+
+.big-body{
+  width: 75em;
+  height: 45em;
+  background-image:url(../images/aqs.png) ;
+  background-size: 75em 45em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2em;
+}
+
+.small-con{
+  width: 40.5em;
+  height: 45em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
+  width: 38em;
+  height: 43em;
+  border: 3px solid  rgb(194, 3, 3);
+  padding: 0.9em 2em;
+  background-color:  rgb(194, 3, 3);
+}
+
+.top{
+  border: rgb(255, 255, 255) solid 4px;
+  background-color: black;
+  color: red;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 0 0.3em;
+  padding-left: 0.9em;
+  font-size: 25px;
+  display: flex;
+  align-items: top;
+  width: 22em;
+}
+
+.middle{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  background-color: black;
+  line-height: 1.6em;
+  border: rgb(255, 255, 255) solid 4px;
+  margin: 0.4em 0;
+  padding: 0.9em 0.5em;
+  color: white;
+  width: 22em;
+}
+
+.bck-btn{
+  border: red solid 2px;
+  background-color: black;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600px;
+  padding: 0.2em 0.3em;
+  padding-left: 0.9em;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.otherOutput{
+  width: 30em;
+  height: 30em;
+  border: 3px solid  rgb(255, 164, 164);
+  padding: 0.9em 2em;
+  background-color:  rgb(255, 255, 255);
+  margin-left: 2em;
+}
+
+.top-small-con{
+  width: 22em;
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border: red 4px solid;
+  padding: 2em;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+.top1{
+  width:20em;
+  padding: 0.5em 0.9em;
+  border: red 4px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.top2{
+  width: 20em;
+  padding: 0.5em 0.9em;
+  border: red 4px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.service-output{
+  background-color: green;
+  padding: 0.3em 0.3em;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.top3{
+  width: 20em;
+  height: 8em;
+  padding: 0.5em 0.9em;
+  flex-direction: column;
+  border: red 4px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.state-output{
+  font-size: 35px;
+}
+
+.top3 div{
+  width: 20em;
+  height: 3em;
+  padding: 0.2em 0.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:space-between;
+  text-align: center;
+}
+
+.top2 span, .top1 span{
+font-size: 35px;
+font-weight: 400;
+}
+
+.contact-info-number{
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contact-info-name{
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}

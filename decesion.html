@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/decesion.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="big-con">
+    <div class="small-con">
+      <div class="right">
+        <div class="top">
+          <a href="index.html">
+            <button>
+              BACK
+              <i class='bx bx-chevron-left'></i>
+            </button>
+          </a>
+          <div class="imgPlce">
+          </div>
+          </div>
+          <div class="middle">
+            <select class="js-select-fault">
+              <option selected>CARFAULT</option>
+              <option value="1">ENGINE FAILS TO ROTATE WHEN ATTEMPTING TO START</option>
+              <option value="2">ENGINE ROTATES, BUT WILL NOT START</option>
+              <option value="3">ENGINE FAIL TO START WHEN COLD</option>
+              <option value="4">ENGINE FAIL TO START WHEN HOT</option>
+              <option value="5">START MOTOR NOISY OR EXESSIVELY-ROUGH IN ENGAGEMENT</option>
+              <option value="6">ENGINE HESITATES ON ACCELERATION</option>
+              <option value="7">ENGINE STALLS</option>
+              <option value="8">ENGINE LACKS POWER</option>
+              <option value="9">ENGINE BACKFIRES</option>
+              <option value="10">ENGINE STARTS, BUT STOPS IMMIDIATELY</option>
+              <option value="11">ENGINE IDLES ERRADICALLY</option>
+              <option value="12">ENGINE MISFIRES AT IDLE SPEED</option>
+              <option value="13">ENGINE MISFIRES THROUGHOUT THE DRIVING SPEED RANGE</option>
+              <option value="14">OIL PRESSUE WARNING LIGHT ILLUMINATED WITH ENGINE RUNNING</option>
+              <option value="15">ENGINE RUNS-ON AFTER SWITCHING OFF</option>
+              <option value="16">
+                ENGINE NOISES PRE-IGNITION (PINKING) OR KNOCKING DURING ACCELERATION OR UNDER LOAD
+              </option>
+              <option value="17">WHISTLING OR WHEEZING NOISES</option>
+              <option value="18">TAPPING OR RATTLING NOISES</option>
+              <option value="19">KNOCKING OR THUMPING NOISES</option>
+            </select>
+
+            <select class="js-select-issue-date-start">
+              <option selected>STARTOFISSUE</option>
+              <option value="1D">1 DAY</option>
+              <option value="L1W">LESS THAN 1 WEEK</option>
+              <option value="1W">1 WEEK</option>
+              <option value="L1M">LESS THAN 1 MONTH</option>
+              <option value="1M">1 MONTH</option>
+              <option value="L6M">LESS THAN 6 MONTHS</option>
+              <option value="6M">6 MONTHS</option>
+              <option value="6MT1Y">6 MONTHS TO 1 YEAR</option>
+            </select>
+
+            <select class="js-select-lsdate">
+              <option selected>LASTSERVICEDATE</option>
+              <option value="L1M">LESS THAN 1 MONTH</option>
+              <option value="1M">1 MONTH</option>
+              <option value="3M">3 MONTH</option>
+              <option value="6M">6 MONTH</option>
+              <option value="more">MORE</option>
+            </select>
+
+            <select class="js-select-state">
+              <option selected>STATE</option>
+              <option value="FC">Abuja</option>
+              <option value="AB">Abia</option>
+              <option value="AD">Adamawa</option>
+              <option value="AK">Akwa Ibom</option>
+              <option value="AN">Anambra</option>
+              <option value="BA">Bauchi</option>
+              <option value="BY">Bayelsa</option>
+              <option value="BE">Benue</option>
+              <option value="BO">Borno</option>
+              <option value="CR">Cross River</option>
+              <option value="DE">Delta</option>
+              <option value="EB">Ebonyi</option>
+              <option value="ED">Edo</option>
+              <option value="EK">Ekiti</option>
+              <option value="EN">Enugu</option>
+              <option value="GO">Gombe</option>
+              <option value="IM">Imo</option>
+              <option value="JI">Jigawa</option>
+              <option value="KD">Kaduna</option>
+              <option value="KN">Kano</option>
+              <option value="KT">Katsina</option>
+              <option value="KE">Kebbi</option>
+              <option value="KO">Kogi</option>
+              <option value="KW">Kwara</option>
+              <option value="LA">Lagos</option>
+              <option value="NA">Nassarawa</option>
+              <option value="NI">Niger</option>
+              <option value="OG">Ogun</option>
+              <option value="ON">Ondo</option>
+              <option value="OS">Osun</option>
+              <option value="OY">Oyo</option>
+              <option value="PL">Plateau</option>
+              <option value="RI">Rivers</option>
+              <option value="SO">Sokoto</option>
+              <option value="TA">Taraba</option>
+              <option value="YO">Yobe</option>
+              <option value="ZA">Zamfara</option>
+            </select>
+    <div class="occuring">
+        Re occuring Issue? 
+        <div>
+          <span> Yes <input type="radio" class=".custom-radio" name="option" value="1"></span>
+          <span> No <input type="radio" class=".custom-radio" name="option" value="2"></span>
+        </div>  
+    </div>
+
+    <div class="diagnosis">
+     prior diagnosis? 
+      <div>
+        <span> Yes <input type="radio" class=".custom-radio" name="option" value="1"></span>
+        <span> No <input type="radio" class=".custom-radio" name="option" value="2"></span>
+      </div>  
+  </div>
+
+    <div>
+      
+    </div>
+          </div>
+          <div class="buttom">
+            <button class="BTN1">
+              CLEAR
+            </button>
+              <a href="output.html">
+                <button class="BTN2">
+                  DIAGNOSE
+                </button>
+              </a>
+          </div>
+      </div>
+    </div>
+  
+  </div>
+  <script type="module" src="script/femi.js"></script>
+</body>
+</html>
